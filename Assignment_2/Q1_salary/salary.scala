@@ -9,6 +9,6 @@ object salary {
     def main (args:Array[String]){
       println("Salary Calculator");
       val emp_sal=normalH(40)+otH(20)-tax(40,20);
-      println("Takehome Salary of a Employee = "+emp_sal);
+      println("Takehome Salary of a Employee for a week = "+emp_sal);
     }
 }
